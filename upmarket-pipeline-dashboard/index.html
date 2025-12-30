@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 Upmarket Pipeline and Revenue Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="config.js"></script>
+    <!-- Allow embedding in iframes (for Coda) -->
+    <meta http-equiv="X-Frame-Options" content="ALLOWALL">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Header -->
+        <header class="dashboard-header">
+            <h1>2026 Upmarket Pipeline and Revenue Dashboard</h1>
+            <div class="header-info">
+                <span class="last-updated">Last Updated: <span id="lastUpdated"></span></span>
+                <button class="btn-refresh" onclick="loadDashboardData()">🔄 Refresh</button>
+            </div>
+        </header>
+        <!-- Content will be loaded by dashboard.js -->
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
